@@ -10,7 +10,7 @@ function App() {
       <div>Profile</div>
       <div>Messages</div>
     </nav>
-    <div className='content'>Main content</div>
+    <div className='content'>Main content - 1</div>
   </div>
   );
 }
