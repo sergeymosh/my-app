@@ -1,16 +1,16 @@
 import React from 'react';
-import './';
+import './App.css';
 
 function App() {
   return (<div className = 'app-wrapper'>
-    <header>
-      <img src='https://toplogos.ru/images/logo-half-life.jpg' />
+    <header className='header'>
+      <img src='https://toplogos.ru/images/logo-half-life.jpg' alt='HL'/>
     </header>
-    <nav>
+    <nav className='nav'>
       <div>Profile</div>
       <div>Messages</div>
     </nav>
-    <div>Main content</div>
+    <div className='content'>Main content</div>
   </div>
   );
 }
